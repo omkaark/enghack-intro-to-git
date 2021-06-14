@@ -1,0 +1,44 @@
+<!-- Code derived and slightly edited from https://www.geeksforgeeks.org/html-calculator/ -->
+
+<html>
+    <head>
+       <script src="script.js"></script>
+       <style src="styles.css"></style>
+    </head>
+    <body>
+       <div class="title">EngHack Score Calculator</div>
+       <table border="1">
+          <tr>
+             <td colspan="3"><input type="text" id="result"/></td>
+             <!-- clearText() function will call clearText to clear the input bar -->
+             <td><input type="button" value="c" onclick="clearText()"/> </td>
+          </tr>
+          <tr>
+             <!-- displayAnswer("1") will call function displayAnswer to display value -->
+             <td><input type="button" value="1" onclick="displayAnswer('1')"/> </td>
+             <td><input type="button" value="2" onclick="displayAnswer('2')"/> </td>
+             <td><input type="button" value="3" onclick="displayAnswer('3')"/> </td>
+             <td><input type="button" value="/" onclick="displayAnswer('/')"/> </td>
+          </tr>
+          <tr>
+             <td><input type="button" value="4" onclick="displayAnswer('4')"/></td>
+             <td><input type="button" value="5" onclick="displayAnswer('5')"/></td>
+             <td><input type="button" value="6" onclick="displayAnswer('6')"/></td>
+             <td><input type="button" value="-" onclick="displayAnswer('-')"/></td>
+          </tr>
+          <tr>
+             <td><input type="button" value="7" onclick="displayAnswer('7')"/> </td>
+             <td><input type="button" value="8" onclick="displayAnswer('8')"/> </td>
+             <td><input type="button" value="9" onclick="displayAnswer('9')"/> </td>
+             <td><input type="button" value="+" onclick="displayAnswer('+')"/> </td>
+          </tr>
+          <tr>
+             <td><input type="button" value="." onclick="displayAnswer('.')"/> </td>
+             <td><input type="button" value="0" onclick="displayAnswer('0')"/> </td>
+             <!-- solveEquation evaluates value in the input bar -->
+             <td><input type="button" value="=" onclick="solveEquation()"/> </td>
+             <td><input type="button" value="*" onclick="displayAnswer('*')"/> </td>
+          </tr>
+       </table>
+    </body>
+ </html>  
