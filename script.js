@@ -2,7 +2,7 @@
 
 // Function to display value
 function displayAnswer(val) {
-    document.getElementById("result").value+=val;
+    document.getElementById("result").value += val;
 }
 
 //function that evaluates the digit and return result
@@ -14,5 +14,5 @@ function solveEquation() {
 
 //function that clear the display
 function clearText() {
-    document.getElementById("result").value = "";
+    document.getElementById("result").value = "What?"; // Mistake: Value given should be ""
 }
