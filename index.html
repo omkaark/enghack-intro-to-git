@@ -3,11 +3,10 @@
 <html>
     <head>
        <script src="script.js"></script>
-       <style src="styles.css"></style>
+       <link rel="stylesheet" href="styles.css"></link>
     </head>
     <body>
-       <div class="title">EngHack Score Calculator</div>
-       <table border="1">
+       <table>
           <tr>
              <td colspan="3"><input type="text" id="result"/></td>
              <!-- clearText() function will call clearText to clear the input bar -->
@@ -37,7 +36,7 @@
              <td><input type="button" value="0" onclick="displayAnswer('0')"/> </td>
              <!-- solveEquation evaluates value in the input bar -->
              <td><input type="button" value="=" onclick="solveEquation()"/> </td>
-             <td><input type="button" value="*" onclick="displayAnswer('*')"/> </td>
+             <td><input type="button" value="x" onclick="displayAnswer('*')"/> </td>
           </tr>
        </table>
     </body>
