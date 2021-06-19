@@ -5,7 +5,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Mistake: value should be center */
+  align-items: center; /* Mistake: value should be center */
 }
 
 input[type="button"] {
@@ -20,7 +20,7 @@ input[type="button"] {
 input[type="text"] {
   background-color: white;
   border: solid black 2px;
-  width: 200px; /* Mistake: dimensions should be 130px x 40px */
-  height: 60px; /* Mistake: dimensions should be 130px x 40px */
+  width: 130px; /* Mistake: dimensions should be 130px x 40px */
+  height: 40px; /* Mistake: dimensions should be 130px x 40px */
   font-size: 30px;
 }
