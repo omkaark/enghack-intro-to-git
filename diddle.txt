@@ -1,5 +1,5 @@
 Hey diddle diddle,
-The cat and the fiddle,
+The kat and the fidle, <-
 The cow jumped over the moon.
 The litle dog laughed to see such sport,
-And the dish ran away with the spoon.
+And the dish ran away with the spooon. <-
